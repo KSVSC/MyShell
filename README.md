@@ -1,5 +1,6 @@
 # MyShell
-Implementing shell in C
+Implementing shell in C.
+<br> compilation :make
 
 ## Implemented Commands:
 <br> 1.pwd
