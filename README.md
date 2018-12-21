@@ -2,23 +2,23 @@
 Implementing shell in C
 
 ## Implemented Commands:
-<br> pwd
-<br> cd (cd ..,cd~,cd <filename>)
-<br> echo (takes care of double quotes)
-<br> ls [al] (ls -a,ls -l,ls -al,ls -la)
-<br> pinfo
-<br> setenv var [value]
-<br> unsetenv var
-  jobs
-  kjob <job_num> <sig_num> (kill job)
-  fg <job_num> (brings bg process to fg process)
-  bg <job_num> (puts stopped bg process to running state)
-  overkill
-  quit
-  Ctrl Z
-  Ctrl C
-  
+<br> 1.pwd
+<br> 2.cd (cd ..,cd~,cd <filename>)
+<br> 3.echo (takes care of double quotes)
+<br> 4.ls [al] (ls -a,ls -l,ls -al,ls -la)
+<br> 5.pinfo
+<br> 6.setenv var [value]
+<br> 7.unsetenv var
+<br> 8.jobs
+<br> 9.kjob <job_num> <sig_num> (kill job)
+<br> 10.fg <job_num> (brings bg process to fg process)
+<br> 11.bg <job_num> (puts stopped bg process to running state)
+<br> 12.overkill
+<br> 13.quit
+<br> 14.Ctrl Z
+<br> 15.Ctrl C
 
+###  Implementation:
 <br> Taken care of forground and Background(&) processes.
 <br> If the background process exits then the shell must display the appropriate
 message to the user.
